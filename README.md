@@ -3,14 +3,9 @@
 A hands-on threat-simulation and detection-engineering case study. Working as the
 defender in an iterative purple-team engagement, I built detections against an
 attacker ("Sphinx") who escalated his malware samples each round to evade my
-previous detection. Each round forced me one level higher up the
-**[Pyramid of Pain](https://www.attack.mitre.org/)** — from trivial-to-change
+previous detection. Each round forced me one level higher up the pyramid of pain — from trivial-to-change
 indicators (file hashes) up to the hardest thing for an attacker to change
 (their techniques and procedures).
-
-> **Note:** This write-up is based on a TryHackMe lab. It documents my analysis,
-> reasoning, and detection decisions — not a step-by-step answer key. No flags are
-> included. The goal is to demonstrate the *thinking* behind layered detection.
 
 ---
 
@@ -288,5 +283,4 @@ Connections)` · `MITRE ATT&CK mapping` · `Log correlation` · `Beacon analysis
 
 ---
 
-*Based on a TryHackMe purple-team lab. Documented for learning purposes — analysis
-and reasoning only, no flags or solution keys.*
+*Based on a TryHackMe purple-team lab. Documented for learning purposes.
